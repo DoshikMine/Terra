@@ -1,0 +1,4 @@
+jdk:
+  - openjdk17
+install:
+  - mvn install:install-file -Dfile=Terra-6.1.1-BETA.jar -DgroupId=net.doshik -DartifactId=Terra -Dversion=6.1.1-BETA -Dpackaging=jar -DgeneratePom=true
